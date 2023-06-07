@@ -202,7 +202,7 @@
     width: 100%;
     max-width: 140px;
     height: 40px;
-    color: #cecece;
+    color: rgb(192, 132, 248);
     border-radius: 5px;
     border: none;
     text-decoration: none;
@@ -215,10 +215,10 @@
     color: #fff;
    }
    .yes-button-button{
-    color: #fff;
+    color: rgb(192, 132, 248);
    }
    .no-button-computer{
-    color: #fff;
+    color: rgb(192, 132, 248);
    }
   }
 
