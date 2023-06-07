@@ -164,7 +164,7 @@
     width: 100%;
     height: 40px;
     text-align: center;
-    color: #cecece;
+    color: rgb(192, 132, 248);
     font-size: 24px;
     text-decoration: none;
     border-radius: 5px;
@@ -185,7 +185,7 @@
     width: 100%;
     max-width: 140px;
     height: 40px;
-    color: #cecece;
+    color: rgb(192, 132, 248);
     border-radius: 5px;
     border: none;
     text-decoration: none;
@@ -213,12 +213,6 @@
    }
    .title{
     color: #fff;
-   }
-   .yes-button-button{
-    color: rgb(192, 132, 248);
-   }
-   .no-button-computer{
-    color: rgb(192, 132, 248);
    }
   }
 
