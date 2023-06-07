@@ -9,8 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-        
+    margin-top: 40px;     
 }
 .heart{
     width: 50px;
@@ -19,9 +18,7 @@
     background-color: #e93d3d;
     border-radius: 15px;
     transform-origin: right bottom;
-    animation: heart 3s ease infinite alternate ;
-    
-    
+    animation: heart 3s forwards ease;   
     left: -25px;
 }
 
@@ -34,9 +31,7 @@
     position: absolute;
     background-color: #d62424;
     transform-origin: left bottom;
-    animation: heart_after 3s ease infinite alternate forwards;
-    
-    
+    animation: heart_after 3s forwards ease;   
 }
 
 
@@ -77,8 +72,11 @@
     95%{
         transform: rotate(45deg) scale(1);
     }
-    100%{
+    98%{
         transform: rotate(45deg) scale(1.05);
+    }
+    100%{
+        transform: rotate(45deg) scale(1);
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;  
     }
@@ -93,6 +91,7 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
+    
     100%{
         transform: rotate(-90deg) translateY(50px);
         border-top-left-radius: 25px;
@@ -186,7 +185,7 @@
     width: 100%;
     max-width: 140px;
     height: 40px;
-    color: #c9c9c9;
+    color: #cecece;
     border-radius: 5px;
     border: none;
     text-decoration: none;
@@ -203,7 +202,7 @@
     width: 100%;
     max-width: 140px;
     height: 40px;
-    color: #c9c9c9;
+    color: #cecece;
     border-radius: 5px;
     border: none;
     text-decoration: none;
