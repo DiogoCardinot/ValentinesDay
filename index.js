@@ -1,10 +1,13 @@
-function Nao(t){
-    var button = t;
-    button.style.position = 'absolute'
-    button.style.bottom = RandomNumbers(10,80)
-    button.style.left = RandomNumbers(10,80)
+function Nao(){
+    var buttonComputer = document.querySelector('.no-button-computer');
+    buttonComputer.style.position = 'absolute'
+    buttonComputer.style.bottom = RandomNumbers(10,90)
+    buttonComputer.style.left = RandomNumbers(10,90)
+    var buttonCelular = document.querySelector('.no-button-celular');
+    buttonCelular.style.position = 'absolute'
+    buttonCelular.style.bottom = RandomNumbers(10,50)
+    buttonCelular.style.left = RandomNumbers(10,60)
 
-    console.log(button)
 }
 
 function RandomNumbers(min, max){
