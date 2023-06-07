@@ -211,6 +211,15 @@
    .no-button-celular{
     display: none;
    }
+   .title{
+    color: #fff;
+   }
+   .yes-button-button{
+    color: #fff;
+   }
+   .no-button-computer{
+    color: #fff;
+   }
   }
 
 @media screen and (max-width: 768px) {
