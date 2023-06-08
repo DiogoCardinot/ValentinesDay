@@ -125,7 +125,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin: 0;
-    color: #cecece;
+    color: #ffffff;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -210,9 +210,6 @@
 @media screen and (min-width: 767px) {
    .no-button-celular{
     display: none;
-   }
-   .title{
-    color: #fff;
    }
   }
 
